@@ -19,9 +19,9 @@ An end-to-end AI system that evaluates candidate resumes against job requirement
 python -m venv .venv
 source .venv/bin/activate      # Windows: .venv\Scripts\activate
 
-pip install -r requirements.txt
-python download_nltk_data.py
-streamlit run app.py
+1. pip install -r requirements.txt
+2. python download_nltk_data.py
+3. streamlit run app.py
 
 
 ## How Scoring Works
